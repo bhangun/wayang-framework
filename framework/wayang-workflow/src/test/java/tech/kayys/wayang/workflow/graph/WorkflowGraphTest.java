@@ -1,7 +1,6 @@
-package tech.kayys.wayang.harness.workflow;
+package tech.kayys.wayang.workflow.graph;
 
 import org.junit.jupiter.api.Test;
-import tech.kayys.wayang.workflow.graph.*;
 
 import java.util.Map;
 import java.util.Optional;
@@ -9,7 +8,7 @@ import java.util.Set;
 
 import static org.junit.jupiter.api.Assertions.*;
 
-class WorkflowTest {
+class WorkflowGraphTest {
 
     @Test
     void testExecutionGraphConstructionAndTopology() {
